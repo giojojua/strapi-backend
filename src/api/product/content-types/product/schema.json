@@ -27,10 +27,6 @@
       "type": "integer",
       "required": true
     },
-    "engine": {
-      "type": "integer",
-      "required": true
-    },
     "transmission": {
       "type": "string",
       "required": true
@@ -47,6 +43,14 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::product-category.product-category"
+    },
+    "engine": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "integer",
+      "required": true
     }
   }
 }
